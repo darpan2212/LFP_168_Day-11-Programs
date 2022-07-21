@@ -4,11 +4,11 @@ public class CardGame {
 
 	public static void main(String[] args) {
 
-		DeckOfCards deck = new DeckOfCards();
-
-		deck.initDeck();
-		deck.printCards();
-
+		DistributeCard distributeCard = new DistributeCard(4, 4);
+		
+		distributeCard.distribute();
+		
+		distributeCard.printDistributedCards();
 	}
 
 }
